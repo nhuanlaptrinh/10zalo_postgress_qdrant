@@ -8,7 +8,7 @@
         "width": 4189,
         "color": 5
       },
-      "id": "b629a29e-f928-4e63-98dd-c3ddab53bfe7",
+      "id": "6ee21a55-6e81-4201-a923-988b78be02aa",
       "name": "Sticky Note",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
@@ -34,7 +34,7 @@
           }
         }
       },
-      "id": "ce8cca85-33cd-41a1-8de9-79ec908ab30d",
+      "id": "673b291b-835b-4cb8-a133-0b9dae6631be",
       "name": "Download File1",
       "type": "n8n-nodes-base.googleDrive",
       "typeVersion": 3,
@@ -45,8 +45,8 @@
       "executeOnce": true,
       "credentials": {
         "googleDriveOAuth2Api": {
-          "id": "INVALID_GOOGLE_DRIVE_ID_12345",
-          "name": "Google Drive account 4"
+          "id": "vT971jVDaeXm38jP",
+          "name": "Google Drive account 18"
         }
       }
     },
@@ -70,7 +70,7 @@
         "event": "fileCreated",
         "options": {}
       },
-      "id": "e6bc7b10-b713-4411-abd2-75e14e6e2701",
+      "id": "0aab5b72-9e63-4dee-a5c9-572beae57773",
       "name": "File Created1",
       "type": "n8n-nodes-base.googleDriveTrigger",
       "typeVersion": 1,
@@ -80,8 +80,8 @@
       ],
       "credentials": {
         "googleDriveOAuth2Api": {
-          "id": "INVALID_GOOGLE_DRIVE_ID_12345",
-          "name": "Google Drive account 4"
+          "id": "vT971jVDaeXm38jP",
+          "name": "Google Drive account 18"
         }
       }
     },
@@ -105,18 +105,18 @@
         "event": "fileUpdated",
         "options": {}
       },
-      "id": "f2f30c88-5b20-4cf9-b756-1f91577545fd",
+      "id": "fd77d110-7abf-4b2a-87e7-52d30cefc730",
       "name": "File Updated1",
       "type": "n8n-nodes-base.googleDriveTrigger",
       "typeVersion": 1,
       "position": [
-        -16,
+        -32,
         1648
       ],
       "credentials": {
         "googleDriveOAuth2Api": {
-          "id": "INVALID_GOOGLE_DRIVE_ID_12345",
-          "name": "Google Drive account 4"
+          "id": "vT971jVDaeXm38jP",
+          "name": "Google Drive account 18"
         }
       }
     },
@@ -126,7 +126,7 @@
         "height": 465,
         "width": 1756
       },
-      "id": "7c4d4f1f-f7e7-4f25-8307-427946896982",
+      "id": "33351cca-9245-43ca-8470-563474682f4d",
       "name": "Sticky Note3",
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
@@ -141,7 +141,7 @@
         "path": "docsQdrantv11mmmmmnhuan1234",
         "options": {}
       },
-      "id": "72ac2b19-1fdd-45e9-b128-101d2dbbdcea",
+      "id": "426401ad-8eee-4f12-bde1-d3602afecf18",
       "name": "Webhook1",
       "type": "n8n-nodes-base.webhook",
       "typeVersion": 2,
@@ -156,7 +156,7 @@
         "operation": "pdf",
         "options": {}
       },
-      "id": "fa34d974-b887-45c3-ac71-abd0ad6c5fa7",
+      "id": "49f1d7fe-e83b-46f1-ac2e-32948e71f08c",
       "name": "Extract PDF Text1",
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
@@ -170,7 +170,7 @@
         "aggregate": "aggregateAllItemData",
         "options": {}
       },
-      "id": "dc2d94c4-4fc1-4bbe-990d-cd5162fc43a0",
+      "id": "69957999-50c2-4c8a-8340-dbf3fef22008",
       "name": "Aggregate1",
       "type": "n8n-nodes-base.aggregate",
       "typeVersion": 1,
@@ -191,7 +191,7 @@
         },
         "options": {}
       },
-      "id": "3b76a8fe-a3cd-4bc0-9a7b-fd3c6442df92",
+      "id": "a0a14ce1-77c6-4ac2-a6b9-e4480454248a",
       "name": "Summarize1",
       "type": "n8n-nodes-base.summarize",
       "typeVersion": 1,
@@ -463,7 +463,7 @@
           "fallbackOutput": 10
         }
       },
-      "id": "fc7d1e97-6269-41c8-9cb1-953f4003fc2b",
+      "id": "8269db57-9768-4c5e-9122-3ac5482d0572",
       "name": "Switch1",
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3,
@@ -477,7 +477,7 @@
         "operation": "xlsx",
         "options": {}
       },
-      "id": "2bc39d2a-383d-45e4-a944-70b9eb8474c4",
+      "id": "09dc38db-27fe-498d-8b19-0e8f576a53e5",
       "name": "Extract from Excel1",
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
@@ -497,7 +497,7 @@
         1776,
         1504
       ],
-      "id": "9cf31535-bf87-4740-921e-0946ff1c5c90",
+      "id": "6f4e2d13-5115-4af1-bc04-cced699ac90f",
       "name": "Extract from CSV1"
     },
     {
@@ -512,7 +512,7 @@
         208,
         1424
       ],
-      "id": "0d9d1f0b-17ba-45aa-b3a7-5706f278a50a",
+      "id": "83936cc2-95f8-41b1-a7f9-28bc48ac125b",
       "name": "Loop Over Items1"
     },
     {
@@ -531,12 +531,12 @@
         2208,
         1920
       ],
-      "id": "27371567-bbe8-4e67-b50c-afc836024d53",
+      "id": "6e80930f-89a4-44ad-bdbb-0338634308c8",
       "name": "Delete File1",
       "credentials": {
         "googleDriveOAuth2Api": {
-          "id": "INVALID_GOOGLE_DRIVE_ID_12345",
-          "name": "Google Drive account 4"
+          "id": "vT971jVDaeXm38jP",
+          "name": "Google Drive account 18"
         }
       }
     },
@@ -561,7 +561,7 @@
         },
         "options": {}
       },
-      "id": "33058d81-6735-4216-b925-2f16754fafd1",
+      "id": "09b46fe4-a57c-4116-b9fd-2fa2e034cb7f",
       "name": "Convert to Google Doc1",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.1,
@@ -571,8 +571,8 @@
       ],
       "credentials": {
         "googleDriveOAuth2Api": {
-          "id": "INVALID_GOOGLE_DRIVE_ID_12345",
-          "name": "Google Drive account 4"
+          "id": "vT971jVDaeXm38jP",
+          "name": "Google Drive account 18"
         }
       }
     },
@@ -606,7 +606,7 @@
         816,
         1440
       ],
-      "id": "7fccc81a-6c14-45e4-9b2f-e36852b8a80b",
+      "id": "964aa584-9bc3-4e34-b858-5640ccc413b8",
       "name": "If"
     },
     {
@@ -647,7 +647,7 @@
         },
         "options": {}
       },
-      "id": "933145c4-7c6e-449b-9025-a47ad88ac9e8",
+      "id": "2b27554f-77bf-4bac-9ae8-aea33b63db41",
       "name": "Set File ID_!1",
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
@@ -673,11 +673,11 @@
         3264,
         1488
       ],
-      "id": "cd63b311-e4b8-40c4-a446-6a9dba2b9293",
+      "id": "eadebdc6-fdbf-44fc-8afa-5fc4d1a8ccdd",
       "name": "Qdrant Vector Store1",
       "credentials": {
         "qdrantApi": {
-          "id": "INVALID_QDRANT_ID_67890",
+          "id": "rWae2xb1M0Iehw3P",
           "name": "QdrantApi account 5"
         }
       }
@@ -692,11 +692,11 @@
         3120,
         1824
       ],
-      "id": "d2d84768-3381-4ac8-951c-3116319cf8a8",
+      "id": "1f661b8b-46c0-435b-af73-65d88cf7e558",
       "name": "Embeddings OpenAI2",
       "credentials": {
         "openAiApi": {
-          "id": "INVALID_OPENAI_ID_ABCDE",
+          "id": "O00uQUVJ3Z2xrDsL",
           "name": "OpenAi account 7"
         }
       }
@@ -711,13 +711,13 @@
         3264,
         1920
       ],
-      "id": "ac4695cc-84fb-4b5f-97e2-1dbc05ab2125",
+      "id": "840d0d2e-166e-4445-8418-914c148729e1",
       "name": "Character Text Splitter"
     },
     {
       "parameters": {
         "promptType": "define",
-        "text": "=Base on this info: {{ $json.combinedContext }}\nAnswer the query: {{ $json.originalQuery }}\n\nLưu ý: câu trả lời ngắn gọn dưới 1500 ký tự, và nếu câu chào hỏi bình thường thì bạn phải hồi lại xã giao bình thường (không liên quan đến tài liệu)",
+        "text": "={{ $json.originalQuery }}\n\nđọc nội dung này {{ $json.combinedContext }} để trả lời câu hỏi ở trên.\n\n\nLưu ý: câu trả lời ngắn gọn dưới 1500 ký tự, và nếu câu chào hỏi bình thường thì bạn phải hồi lại xã giao bình thường (không liên quan đến tài liệu)",
         "options": {}
       },
       "type": "@n8n/n8n-nodes-langchain.agent",
@@ -726,7 +726,7 @@
         1232,
         352
       ],
-      "id": "d7bc9042-edaf-4549-94c5-3c5ff5a280f9",
+      "id": "dec23b0f-f257-43aa-8170-09d73dc52fbf",
       "name": "AI Agent1"
     },
     {
@@ -739,11 +739,11 @@
         544,
         560
       ],
-      "id": "7ba24d6f-1989-45c3-a4da-bbd0916526af",
+      "id": "0af95434-ca58-4e53-8e41-3baa1e3730b8",
       "name": "Embeddings OpenAI3",
       "credentials": {
         "openAiApi": {
-          "id": "INVALID_OPENAI_ID_ABCDE",
+          "id": "O00uQUVJ3Z2xrDsL",
           "name": "OpenAi account 7"
         }
       }
@@ -767,12 +767,12 @@
         592,
         352
       ],
-      "id": "dac4fe87-4f5c-497b-9568-99ca53d07b6b",
+      "id": "15caad88-1e8b-4b7e-ac8c-7da88b6d5403",
       "name": "Qdrant Vector Store3",
       "notesInFlow": false,
       "credentials": {
         "qdrantApi": {
-          "id": "INVALID_QDRANT_ID_67890",
+          "id": "rWae2xb1M0Iehw3P",
           "name": "QdrantApi account 5"
         }
       }
@@ -787,7 +787,7 @@
         960,
         352
       ],
-      "id": "a7cd6b91-c387-4e4c-8cbe-d196ea289c17",
+      "id": "87babc7e-2c47-4cb7-aa06-c1b719660520",
       "name": "Code1"
     },
     {
@@ -822,7 +822,7 @@
         },
         "options": {}
       },
-      "id": "cce5f561-2568-4990-9b3b-c43a6f03fda0",
+      "id": "d8096685-85b1-423e-b800-dd5bd1b53fc4",
       "name": "Chat-input1",
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
@@ -836,7 +836,7 @@
         "operation": "text",
         "options": {}
       },
-      "id": "020072f7-5df7-439f-815b-64e703a85c17",
+      "id": "59027f6d-8e8b-4377-8d3d-f7ceb8b73577",
       "name": "Extract Document Text1",
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
@@ -865,7 +865,7 @@
           }
         }
       },
-      "id": "ed19b321-d00c-4c76-8de0-ee730f255bda",
+      "id": "cc93c2e5-c80a-4477-86ce-8bccb6ae753a",
       "name": "Default Data Loader1",
       "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
       "typeVersion": 1,
@@ -899,7 +899,7 @@
         432,
         0
       ],
-      "id": "c1da2369-2e99-4972-9333-fbea4dd9268e",
+      "id": "9f50a358-ed9e-4fb8-8254-63abd0f1f232",
       "name": "HTTP Request1"
     },
     {
@@ -928,7 +928,7 @@
         208,
         0
       ],
-      "id": "c77f544e-634e-4b14-a271-fccb63013e9a",
+      "id": "ffb09df8-3800-4d93-91a4-3c4efc4cbe18",
       "name": "Input"
     },
     {
@@ -956,7 +956,7 @@
         1600,
         352
       ],
-      "id": "71dd77ed-6af6-4d35-885d-a9cb5516281c",
+      "id": "7a7d3851-8c13-4711-b155-c04188ce75fd",
       "name": "HTTP Request3"
     },
     {
@@ -967,7 +967,7 @@
         0,
         0
       ],
-      "id": "679dc363-c735-4d3a-a819-b6fe46e4a7b5",
+      "id": "48ce8a94-f641-4d4c-9ca3-8c261e513564",
       "name": "When clicking ‘Execute workflow’"
     },
     {
@@ -981,11 +981,11 @@
         1328,
         576
       ],
-      "id": "c261e35b-7d2f-4acb-9551-313d80d0fd46",
+      "id": "9b8e35de-4c3d-45d9-ab09-df077fd61ca4",
       "name": "Postgres Chat Memory",
       "credentials": {
         "postgres": {
-          "id": "INVALID_POSTGRES_ID_FGHIJ",
+          "id": "lZKNcJhVZD5rCkZk",
           "name": "Postgres account 3"
         }
       }
@@ -1000,11 +1000,11 @@
         1104,
         560
       ],
-      "id": "55d7ce23-012d-438b-af0b-9ebbe8847e58",
+      "id": "20e8e5fc-6dad-4a71-a3bc-c27b7a619300",
       "name": "Google Gemini Chat Model",
       "credentials": {
         "googlePalmApi": {
-          "id": "INVALID_GEMINI_ID_KLMNO",
+          "id": "npFYeWDWRwkqivvM",
           "name": "Google Gemini(PaLM) Api account 7"
         }
       }
@@ -1017,7 +1017,7 @@
           "headers": {
             "host": "vpsn8n.anhlaptrinh.vn",
             "user-agent": "Java/1.8.0_192",
-            "content-length": "306",
+            "content-length": "310",
             "accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
             "content-type": "application/json",
             "x-bot-api-secret-token": "aa1233456",
@@ -1034,18 +1034,18 @@
           "body": {
             "event_name": "message.text.received",
             "message": {
-              "date": 1769576811365,
+              "date": 1769584784378,
               "chat": {
                 "chat_type": "PRIVATE",
                 "id": "e8ab671be14b0815515a"
               },
-              "message_id": "a40224bc225f07075e48",
+              "message_id": "08008de7bc1c9944c00b",
               "from": {
                 "id": "e8ab671be14b0815515a",
                 "is_bot": false,
                 "display_name": "Anh Lập Trình Thứ Nhất"
               },
-              "text": "Cho tôi thông tin tài liệu"
+              "text": "cho tôi thông tin tài liệu nha"
             }
           },
           "webhookUrl": "https://vpsn8n.anhlaptrinh.vn/webhook/docsQdrantv11mmmmmnhuan1234",
@@ -1449,15 +1449,16 @@
       ]
     }
   },
-  "active": false,
+  "active": true,
   "settings": {
     "executionOrder": "v1",
     "availableInMCP": false
   },
-  "versionId": "7295270c-d900-49e7-83c4-a1497d85ec7c",
+  "versionId": "31aba964-9b8a-423c-b25a-0cc50268adb1",
   "meta": {
+    "templateCredsSetupCompleted": true,
     "instanceId": "8ae9064574590f4bef62fe6c8cafaae52a5a90dd40cb184103af1049753a2d5d"
   },
-  "id": "Yufa-sk6p3DtuuWADEC7j",
+  "id": "f95gr7boVdUj4ywP6I_fZ",
   "tags": []
 }
